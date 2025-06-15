@@ -1,4 +1,18 @@
-# 🎈 Blank app template
+# Web App : Intania Department Calculator (เราเลือกภาค หรือให้ภาคเลือกเรา)
+
+## Introduction
+The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
+So , It was developed to a brand new web application for 1st year General Engineering Student @ CHulalongkorn University to decide which department is the their best choice.
+
+## Overview
+- Web app which connext Vercel
+
+## 1st Step
+- Download & Install streamlit
+  - py -m pip install streamlit
+  - py -m streamlit hello
+  - เชื่อม gmail
+  - 
 
 A simple Streamlit app template for you to modify!
 
