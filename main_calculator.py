@@ -73,8 +73,8 @@ with st.form("Intania Department Calculator"):
         labphy2 = st.selectbox("⚛️2304184 General Physics Laboratory II Grade" , list(grades.keys())) 
         eng2 = st.selectbox("🧑‍🔬5500112 Experimental Engineering II Grade" , list(grades.keys())) 
         
-        # 2.4 create submit button for calculating points 
-        submitted = st.form_submit_button("Calculate Possibility! 🎯") 
+    # 2.4 create submit button for calculating points 
+    submitted = st.form_submit_button("Calculate Possibility! 🎯") 
         
 # 2.5 create list for storing all of users's grades 
 your_grade_letter = [compprog , explore , material , drawing , cal1 , cal2 , phy1 , phy2 , genchem , labchem , labphy1 , labphy2 , eng1 , eng2] 
