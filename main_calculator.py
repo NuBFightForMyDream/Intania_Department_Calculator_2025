@@ -13,7 +13,7 @@ st.markdown("Note : If you want easier version to understand (Google Sheets) , C
 st.markdown("Ps. More details about this program , You can read it at [README.md](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/README.md) file in this repository.")
 
 # insert multipler image 
-st.image("/workspaces/Intania_Department_Calculator/Multiplier Intania Department.jpg" , caption = "Multiplier for Choosing Department , Thanks to ESC Chula & Registeration Department") # 💡 put selection box outside (Study Group & Dream Department) 
+st.markdown("Well , Here is a multiplier for each department [Click Here](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg)") 
 
 # Step 2 : input basic info 
 
