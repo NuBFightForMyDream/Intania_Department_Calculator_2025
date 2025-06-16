@@ -29,21 +29,23 @@ Well , I created 2 methods how to calculate score for each department.
 [Via this link , Do not use it for commercials](https://docs.google.com/spreadsheets/d/1vxl09wGhZNzD7PMFiAnqD_VPttb0QYFxf6-nfpaY2iY/edit?gid=922121716#gid=922121716)
 
 ## 💻 Code Explained : How can I created this project
-First , you need to install some library in your command prompt
-   ```python
+1. First , you need to install some library in your command prompt
+
+   ```
    py -m pip install streamlit
    py -m pip install pandas # for DataFrame
    py -m pip install numpy # for Mathematical Calculation
    ```
 
-  - py -m pip install streamlit
-  - py -m streamlit hello
-  - เชื่อม gmail
-  - 
+2. I edited all code in Github codespaces (to practice using Git commands). Well , Git command using in this program will be
+   ```
+  # First you need to press ☑️ Commit in GitHub Extension first . Then these are commands for commit & push to GitHub respectively
+  git commit -m "Update your commit message here"
+  git push origin main # push to main branch
+  
+   ```
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+   
 
 ### How to run it on your own machine
 
