@@ -8,7 +8,7 @@ So , It was developed to a brand new web application for 1st year General Engine
 [Via this link , Do not use it for commercials](https://docs.google.com/spreadsheets/d/1vxl09wGhZNzD7PMFiAnqD_VPttb0QYFxf6-nfpaY2iY/edit?gid=922121716#gid=922121716)
 
 ## ✖️2️⃣ Multiplier charts & 10-year back history of department choosing
-![Multiplier Chart](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg)
+![Multiplier Chart](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg) Big thanks for ESC Chula for this picture
 [💻 Drive of history of 10-year back (2006-2024) Via this link](https://drive.google.com/drive/folders/1txEBUvLlHcWB706bdATHjrJsf_BAV-vm?usp=sharing)
 
 ## ‼️ Cautions for using this calculator (Written in Excel)
