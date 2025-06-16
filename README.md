@@ -30,7 +30,7 @@ Well , I created 2 methods how to calculate score for each department.
 
 ## 💻 Code Explained : How can I created this project
 First , you need to install some library in your command prompt
-   ```
+   ```python
    py -m pip install streamlit
    py -m pip install pandas # for DataFrame
    py -m pip install numpy # for Mathematical Calculation
