@@ -29,7 +29,13 @@ Well , I created 2 methods how to calculate score for each department.
 [Via this link , Do not use it for commercials](https://docs.google.com/spreadsheets/d/1vxl09wGhZNzD7PMFiAnqD_VPttb0QYFxf6-nfpaY2iY/edit?gid=922121716#gid=922121716)
 
 ## 💻 Code Explained : How can I created this project
-- Download & Install streamlit
+First , you need to install some library in your command prompt
+   ```
+   py -m pip install streamlit
+   py -m pip install pandas # for DataFrame
+   py -m pip install numpy # for Mathematical Calculation
+   ```
+
   - py -m pip install streamlit
   - py -m streamlit hello
   - เชื่อม gmail
