@@ -37,16 +37,15 @@ Well , I created 2 methods how to calculate score for each department.
    py -m pip install numpy # for Mathematical Calculation
    ```
 
-2. I edited all code in Github codespaces (to practice using Git commands). Well , Git command using in this program will be
+Note : I edited all code in Github codespaces (to practice using Git commands). Git command using in this program will be
    ```
     # First you need to press ☑️ Commit in GitHub Extension first . Then these are commands for commit & push to GitHub respectively
     git commit -m "Update your commit message here"
     git push origin main # push to main branch
-  
    ```
-
+2. Changing formula from Google Sheets to Python code (you can read my code in `main_calculator.py`)
    
-
+3. 
 ### How to run it on your own machine
 
 1. Install the requirements
