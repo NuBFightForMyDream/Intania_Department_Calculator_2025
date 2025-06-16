@@ -2,7 +2,7 @@
 
 ## Introduction
 The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
-So , It was developed to a brand new web application for 1st year General Engineering Student @ CHulalongkorn University to decide which department is the their best choice.
+So , It was developed to a brand new web application for 1st year General Engineering Student @ Chulalongkorn University to decide and calculate which department is the their best choice.
 
 ## Multiplier charts & 10-year back history of department choosing
 ![Multiplier Chart](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg)
@@ -11,7 +11,7 @@ So , It was developed to a brand new web application for 1st year General Engine
 ## Cautions for using this calculator (Written in Excel)
 - Use this carefully , Don't be obsessed with this program too much.
 - This program didn't consist of external factors (popularity , Seats for each department , Psychology game behind department choosing)
-- Georesources & Nuclear Engineering are NOT in this program (because of unpopular department , info not covered 6-year (some year didn't aren't applicable via choosing department) )
+- **Georesources & Nuclear** Engineering are NOT in this program (because of unpopular department , info not covered 6-year (some year didn't aren't applicable via choosing department) )
 - This program didn't contain Safe Points (At this score , nisits can )
 -
 
