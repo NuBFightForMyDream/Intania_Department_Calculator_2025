@@ -39,9 +39,9 @@ Well , I created 2 methods how to calculate score for each department.
 
 2. I edited all code in Github codespaces (to practice using Git commands). Well , Git command using in this program will be
    ```
-  # First you need to press ☑️ Commit in GitHub Extension first . Then these are commands for commit & push to GitHub respectively
-  git commit -m "Update your commit message here"
-  git push origin main # push to main branch
+    # First you need to press ☑️ Commit in GitHub Extension first . Then these are commands for commit & push to GitHub respectively
+    git commit -m "Update your commit message here"
+    git push origin main # push to main branch
   
    ```
 
