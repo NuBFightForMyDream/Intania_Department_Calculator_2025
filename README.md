@@ -5,7 +5,7 @@ The idea from this project is from myself that can't wait for Engineering Regist
 So , It was developed to a brand new web application for 1st year General Engineering Student @ CHulalongkorn University to decide which department is the their best choice.
 
 ## Multiplier charts & 10-year back history of department choosing
-![Multiplier Chart](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg)
+![Multiplier Chart]Multiplier Chart , Big thanks to ESC Chula(https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg)
 [💻 Drive of history of 10-year back (2006-2024) Via this link](https://drive.google.com/drive/folders/1txEBUvLlHcWB706bdATHjrJsf_BAV-vm?usp=sharing)
 
 ## Cautions for using this calculator (Written in Excel)
