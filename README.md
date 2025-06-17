@@ -5,6 +5,7 @@ The idea from this project is from myself that can't wait for Engineering Regist
 So , It was developed to a brand new web application for 1st year General Engineering Student @ Chulalongkorn University to decide and calculate which department is the their best choice.
 
 ## 💡Easier ways to use this app via Google Sheets
+![Example of Google Sheets calculator](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Intania%20Department%20Calculator%20Example%20Sheets.png)
 [Via this link , Do not use it for commercials](https://docs.google.com/spreadsheets/d/1vxl09wGhZNzD7PMFiAnqD_VPttb0QYFxf6-nfpaY2iY/edit?gid=922121716#gid=922121716)
 
 ## ✖️2️⃣ Multiplier charts & 10-year back history of department choosing
