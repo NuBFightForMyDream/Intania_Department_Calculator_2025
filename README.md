@@ -44,19 +44,15 @@ Well , I created 2 methods how to calculate score for each department.
     git commit -m "Update your commit message here"
     git push origin main # push to main branch
     ```
-2. Changing formula from Google Sheets to Python code (you can read my code in `main_calculator.py`)
+    
+2. Changing formula from Google Sheets to Python code (you can read my code & my comments in `main_calculator.py`)
    
-3. 
-### How to run it on your own machine
+3. After done all code , run `main_calculator.py` using this cmd in terminal
+      ```
+      streamlit run main_calculator.py
+      ```
+   It will shown as local web , you need to publish your code to GitHub and Streamlit cloud too.
 
-1. Install the requirements
+Note : Here's some commands and some methods/functions you can learn it via [Streamlit Documentation](https://docs.streamlit.io/)
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+And that's all my process. Hope yall get your dream department. Fighting !! 🫡🦾
