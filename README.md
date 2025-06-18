@@ -20,7 +20,7 @@ So , It was developed to a brand new web application for 1st year General Engine
 - **Georesources & Nuclear** Engineering are **NOT** in this program (because of unpopular department , info not covered 6-year (some year didn't aren't applicable via choosing department) )
 - This program didn't contain **Safe Score** for each department (with this score , nisits can ensure that they have higher possibilities to get their dream department) [but in shhets have it]
 - Opening google sheets in iPad can cause bug (shown as "Loading ...") . so , reopen it and it will shown your score
-- Formula of % Chance is **`100 + (Your_score - Min_score) / Min_score * 400 (Done Difference to Percent then x4`**
+- Formula of % Chance is **`100 + [(Your_score - Min_score) / Min_score * 400] (Done Difference to Percent then x4`**
 
 ## 🔎 2 Methods of calculating **Minimum Score**
 Well , I created 2 methods how to calculate score for each department.
