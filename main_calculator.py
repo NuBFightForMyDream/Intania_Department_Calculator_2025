@@ -189,7 +189,7 @@ if (submitted == True) :
                 'Min Score (Weighted)' : [round(weighted_minscore_dict[dept], 1) for dept in yourscore_dict], 
                 '% Chance (Weighted)': [round(weighted_min_possibility[dept], 1) for dept in yourscore_dict], 
                 
-                'Evaluation Result' : [status_eachdept_dict[dept] for dept in yourscore_dict] }) 
+                'Evaluation Result (WEighted)' : [status_eachdept_dict[dept] for dept in yourscore_dict] }) 
                 
     # 7.2 : Display data of dream department first 
     st.divider() # divide code 
