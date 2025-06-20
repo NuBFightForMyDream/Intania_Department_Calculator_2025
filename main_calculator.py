@@ -133,7 +133,7 @@ avg_minscore_dict = { dept : np.mean(minscore_list) for dept , minscore_list in 
 weighted_minscore_dict = { "Computer Engineering (CP) 💻"       : (0.08 * 125  + 0.125 * 136   + 0.15 * 140     + 0.15 * 141.5  + 0.37 * 153    + 0.125 * 115) , 
                            "Electrical Engineering (EE) ⚡"     : (0.14 * 107  + 0.14 * 118.5  + 0.14 * 121     + 0.14 * 110    + 0.22 * 124    + 0.22 * (87.5 + 0.2*(180-87.5)) , 
                            "Industrial Engineering (IE) 🏭"     : (0.08 * 98   + 0.12 * 107    + 0.216 * 115.5  + 0.216 * 112   + 0.216 * 116.5 + 0.15 * 98.5) , 
-                           "Mechanical Engineering (ME) ⚙️"     : (0.16 * 100  + 0.16 * 99     + 0.16 * 102.5   + 0.16 * 88     + 0.16 * 93.5   + 0.2 * 79.5) , 
+                           "Mechanical Engineering (ME) ⚙️"     : (0.15 * 100  + 0.15 * 99     + 0.2 * 102.5    + 0.15 * 88     + 0.15 * 93.5   + 0.2 * 79.5) , 
                            "Civil Engineering (CE) ⛑️"          : (0.19 * 78.5 + 0.19 * 87.5   + 0.19 * 90      + 0.19 * 74.5   + 0.19 * 76     + 0.05 * 7.5) , 
                            "Metallurgical Engineering (MT) 🦾"  : (0.3 * 35    + 0.033 * 58.5  + 0.3 * 35       + 0.033 * 64    + 0.033 * 49.5  + 0.3 * 39) , 
                            "Chemical Engineering (CHE) 🧪"      : (0.2 * 77.5  + 0.16 * 63     + 0.16 * 41.5    + 0.16 * 34     + 0.16 * 66.5   + 0.16 * 57.5) , 
@@ -151,26 +151,26 @@ weighted_min_possibility = { dept : ( 100 +  ( (yourscore_dict[dept] - weighted_
 # Step 7 : Quote score condition for each department 
 status_eachdept_dict = {} 
 
-for each_dept in average_min_possibility : 
+for each_dept in weighted_min_possibility : 
 
     # case 1 : Chance >= 120% 
-    if average_min_possibility[each_dept] >= 120 : # add key (dept name) and value (quote) to condition_quote dict 
+    if weighted_min_possibility[each_dept] >= 120 : # add key (dept name) and value (quote) to condition_quote dict 
         status_eachdept_dict[each_dept] = "คะเเนนเลยที่คาดการณ์พอสมควร มีโอกาสติดสูงมาก ✅✅" 
         
     # case 2 : Chance between 85% and 120% 
-    elif 85 <= average_min_possibility[each_dept] <= 120 : # add key (dept name) and value (quote) to condition_quote dict 
+    elif 85 <= weighted_min_possibility[each_dept] <= 120 : # add key (dept name) and value (quote) to condition_quote dict 
         status_eachdept_dict[each_dept] = "คะเเนนค่อนข้างเซฟ มีโอกาสติดสูง 🫡" 
         
     # case 3 : Chance between 60% and 85% 
-    elif 60 <= average_min_possibility[each_dept] <= 85 : # add key (dept name) and value (quote) to condition_quote dict 
+    elif 60 <= weighted_min_possibility[each_dept] <= 85 : # add key (dept name) and value (quote) to condition_quote dict 
         status_eachdept_dict[each_dept] = "คะเเนนไม่ค่อยเซฟ มีลุ้นได้ เเต่ต้องดู Ranking ประกอบ 😌" 
         
     # case 4 : Chance between 30% and 60% 
-    elif 30 <= average_min_possibility[each_dept] <= 60 : # add key (dept name) and value (quote) to condition_quote dict 
+    elif 30 <= weighted_min_possibility[each_dept] <= 60 : # add key (dept name) and value (quote) to condition_quote dict 
         status_eachdept_dict[each_dept] = "คะเเนนไม่เซฟเลย มีความเสี่ยงหลุดสูง 😭😭" 
         
     # case 5 : Chance less than 30 
-    elif average_min_possibility[each_dept] <= 30 : # add key (dept name) and value (quote) to condition_quote dict 
+    elif weighted_min_possibility[each_dept] <= 30 : # add key (dept name) and value (quote) to condition_quote dict 
         status_eachdept_dict[each_dept] = "หาภาคอื่นสำรองเถอะ สุ่มเสี่ยงเกินไป 💀💀" 
         
 # Step 7 : display after submit button 
@@ -194,7 +194,7 @@ if (submitted == True) :
     # 7.2 : Display data of dream department first 
     st.divider() # divide code 
     st.subheader(f"🎯 Your Dream Department Evaluation : {dream_department} ") 
-    st.subheader(f"% Chance of Getting this department : {average_min_possibility[dream_department]:.1f} %") 
+    st.subheader(f"% Chance of Getting this department (Weighted) : {weighted_min_possibility[dream_department]:.1f} %") 
     st.subheader(f"Status : {status_eachdept_dict[dream_department]}") 
     
     # 7.3 : Display the results using Streamlit 
