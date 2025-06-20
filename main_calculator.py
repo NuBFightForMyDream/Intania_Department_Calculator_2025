@@ -131,7 +131,7 @@ avg_minscore_dict = { dept : np.mean(minscore_list) for dept , minscore_list in 
 
 # 5.3 : create dict for storing weighted minscore of each department 
 weighted_minscore_dict = { "Computer Engineering (CP) 💻"       : (0.08 * 125  + 0.125 * 136   + 0.15 * 140     + 0.15 * 141.5  + 0.37 * 153    + 0.125 * 115) , 
-                           "Electrical Engineering (EE) ⚡"     : (0.14 * 107  + 0.14 * 118.5  + 0.14 * 121     + 0.14 * 110    + 0.22 * 124    + 0.22 * (87.5 + 0.2*(180-87.5)) , 
+                           "Electrical Engineering (EE) ⚡"     : (0.14 * 107  + 0.14 * 118.5  + 0.14 * 121     + 0.14 * 110    + 0.22 * 124    + 0.22 * (87.5 + 0.2*(180-87.5)) ) , 
                            "Industrial Engineering (IE) 🏭"     : (0.08 * 98   + 0.12 * 107    + 0.216 * 115.5  + 0.216 * 112   + 0.216 * 116.5 + 0.15 * 98.5) , 
                            "Mechanical Engineering (ME) ⚙️"     : (0.15 * 100  + 0.15 * 99     + 0.2 * 102.5    + 0.15 * 88     + 0.15 * 93.5   + 0.2 * 79.5) , 
                            "Civil Engineering (CE) ⛑️"          : (0.19 * 78.5 + 0.19 * 87.5   + 0.19 * 90      + 0.19 * 74.5   + 0.19 * 76     + 0.05 * 7.5) , 
