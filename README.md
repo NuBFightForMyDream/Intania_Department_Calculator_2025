@@ -48,7 +48,7 @@ Well , I created 2 methods how to calculate score for each department.
     git push origin main # push to main branch
   ```
     
-2. Changing formula from Google Sheets to Python code (you can read my code & my comments in `main_calculator.py`) (Explained Later)
+2. Changing formula from Google Sheets to Python code (you can read my code & my explained description in `main_calculator.py`)
    
 3. After done all code , run `main_calculator.py` using this cmd in terminal
       ```
