@@ -3,6 +3,7 @@
 ## 🧮 Introduction
 The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
 So , It was developed to a brand new web application for 1st year General Engineering Student @ Chulalongkorn University to decide and calculate which department is the their best choice.
+> Well if you didn't understand about how we'll choose our department. You can read it here [How to เลือกสาขาวิชาในฝัน By Nine #2 รวม Ft.วิน #2 รวม](https://www.canva.com/design/DAGrAdyzMJE/nLnY6-VaIXCXFQC1ts7e1A/edit?utm_content=DAGrAdyzMJE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) (In progress)
 
 ## 💡Easier ways to use this app via Google Sheets
 - This is example of Google Sheets calculator screen
