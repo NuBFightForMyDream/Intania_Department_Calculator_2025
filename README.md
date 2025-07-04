@@ -1,5 +1,9 @@
 # Web App : Intania Department Calculator (2025 Version) (เราเลือกภาค หรือให้ภาคเลือกเรา)
 
+## Contributors
+- 6730084521 Chatrphol Ovanonchai (Main Contributors)
+- 6730250321 Teerapat Charnsripinyo (Invented "Last Seat Problem" Idea)
+  
 ## 🧮 Introduction
 The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
 So , It was developed to a brand new web application for 1st year General Engineering Student @ Chulalongkorn University to decide and calculate which department is the their best choice.
