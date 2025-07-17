@@ -177,7 +177,7 @@ for each_dept in weighted_min_possibility :
 if (submitted == True) : 
     # 7.1 : Create a DataFrame to display results 
     result_df = pd.DataFrame({ 
-        # DataFram consists of : #   - Department lists , Score for each department , Minscore (Avg , Weighted) , 
+        # DataFrame consists of : #   - Department lists , Score for each department , Minscore (Avg , Weighted) , 
                                  #   - % Chance of getting department (Avg , Weighted) , Recommended Status 
                                  # filled in this form : 'Column Name' : list of values 
                 'Department': list(yourscore_dict.keys()), 
@@ -189,7 +189,7 @@ if (submitted == True) :
                 'Min Score (Weighted)' : [round(weighted_minscore_dict[dept], 1) for dept in yourscore_dict], 
                 '% Chance (Weighted)': [round(weighted_min_possibility[dept], 1) for dept in yourscore_dict], 
                 
-                'Evaluation Result (WEighted)' : [status_eachdept_dict[dept] for dept in yourscore_dict] }) 
+                'Evaluation Result (Weighted)' : [status_eachdept_dict[dept] for dept in yourscore_dict] }) 
                 
     # 7.2 : Display data of dream department first 
     st.divider() # divide code 
