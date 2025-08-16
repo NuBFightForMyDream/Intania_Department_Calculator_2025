@@ -2,7 +2,6 @@
 
 ## Contributors
 - 6730084521 Chatrphol Ovanonchai (Main Contributors)
-- 6730250321 Teerapat Charnsripinyo (Special Guest , Invented "Last Seat Problem" Idea)
   
 ## 🧮 Introduction
 The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
