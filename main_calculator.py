@@ -203,5 +203,5 @@ if (submitted == True) :
     st.dataframe(result_df , use_container_width = True) # use_contanier_width is for expanding DataFrame to full width 
     
 # markdown for ending message 
-st.markdown("Copyright © 2025 NuBFightForCP51Again , All rights reserved.") 
+st.markdown("Copyright © 2025 NuBFightForMyDream (Chatrphol) , All rights reserved.") 
 st.markdown("Big thanks to the old version of this program [You can try it here](https://intania-department-calculator.vercel.app/?fbclid=IwAR1Qr4YZ_Liix9ZyB20HmsS9Q6dwh1GIqFVKwdD1BCzpfconQ1Kbe92b2O0) ")
