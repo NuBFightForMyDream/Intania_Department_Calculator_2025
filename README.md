@@ -6,7 +6,7 @@
 ## 🧮 Introduction
 The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
 So , It was developed to a brand new web application for 1st year General Engineering Student @ Chulalongkorn University to decide and calculate which department is the their best choice.
-> (Update 15 Aug 25 : will update weight for Intania 109 soon , ASAP as i'm free)
+> Update 17 Oct 2025 : Done for upgrading weighted percent for Intania 109
 
 ## 💡Easier ways to use this app via Google Sheets
 - This is example of Google Sheets calculator screen
