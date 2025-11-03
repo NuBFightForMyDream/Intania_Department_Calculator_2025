@@ -114,33 +114,33 @@ for (each_dept , weight_list) in weights.items() : # create sum_score var. (rese
     # 2nd way : calculate by weighted min_score (more accurate) 
     
 # 5.1 : create dict for storing minscore of each department 
-minscore_dict = {    "Computer Engineering (CP) 💻"       : [125 , 136 , 140 , 141.5 , 153 , 115] , 
-                     "Electrical Engineering (EE) ⚡"     : [107 , 118.5 , 121 , 110 , 124 , 87.5] , 
-                     "Industrial Engineering (IE) 🏭"     : [98 , 107 , 115.5 ,112 , 116.5 , 98.5] , 
-                     "Mechanical Engineering (ME) ⚙️"     : [100 , 99 , 102.5 , 88 , 93.5 , 79.5] , 
-                     "Civil Engineering (CE) ⛑️"          : [78.5 , 87.5 , 90 , 74.5 , 76 , 7.5] , 
-                     "Metallurgical Engineering (MT) 🦾"  : [35 , 58.5 , 35 , 64 , 49.5 , 39] , 
-                     "Chemical Engineering (CHE) 🧪"      : [77.5 , 63 , 41.5 , 34 , 66.5 , 57.5] , 
-                     "Petroleum Engineering (PE) ⚗️"      : [94.5 , 90 , 87.5 , 74 , 97.5, 74.5] , 
-                     "Environmental Engineering (ENV) 🌲" : [82 , 76.5 , 90 , 80.5 , 81.5 , 77.5] , 
-                     "Survey Engineering (SV) 🔎"         : [69 , 66.5 , 84.5 , 101 , 35.5 , 55.5] , 
-                     "Automotive Engineering (AE) 🚗"     : [76.5 , 88 , 87.5 , 71.5 , 76 , 70.5] } 
+minscore_dict = {    "Computer Engineering (CP) 💻"       : [125 , 136 , 140 , 141.5 , 153 , 115 , 139.5] , 
+                     "Electrical Engineering (EE) ⚡"     : [107 , 118.5 , 121 , 110 , 124 , 87.5 , 120] , 
+                     "Industrial Engineering (IE) 🏭"     : [98 , 107 , 115.5 ,112 , 116.5 , 98.5 , 100] , 
+                     "Mechanical Engineering (ME) ⚙️"     : [100 , 99 , 102.5 , 88 , 93.5 , 79.5 , 90] , 
+                     "Civil Engineering (CE) ⛑️"          : [78.5 , 87.5 , 90 , 74.5 , 76 , 7.5 , 66] , 
+                     "Metallurgical Engineering (MT) 🦾"  : [35 , 58.5 , 35 , 64 , 49.5 , 39 , 45] , 
+                     "Chemical Engineering (CHE) 🧪"      : [77.5 , 63 , 41.5 , 34 , 66.5 , 57.5 , 73] , 
+                     "Petroleum Engineering (PE) ⚗️"      : [94.5 , 90 , 87.5 , 74 , 97.5, 74.5 , 88.5] , 
+                     "Environmental Engineering (ENV) 🌲" : [82 , 76.5 , 90 , 80.5 , 81.5 , 77.5 , 77] , 
+                     "Survey Engineering (SV) 🔎"         : [69 , 66.5 , 84.5 , 101 , 35.5 , 55.5 , 103] , 
+                     "Automotive Engineering (AE) 🚗"     : [76.5 , 88 , 87.5 , 71.5 , 76 , 70.5 , 77.5] } 
                      
 # 5.2 : calculate average minscore for each department 
 avg_minscore_dict = { dept : np.mean(minscore_list) for dept , minscore_list in minscore_dict.items() } 
 
 # 5.3 : create dict for storing weighted minscore of each department 
-weighted_minscore_dict = { "Computer Engineering (CP) 💻"       : (0 * 125     + 0 * 136        + 0.125 * 140     + 0.125 * 141.5  + 0.75 * 153  + 0 * 115) , 
-                           "Electrical Engineering (EE) ⚡"     :  (0.05 * 107  + 0.075 * 118.5  + 0.4 * 121     + 0.05 * 110    + 0.4 * 124    + 0.075 * (87.5 + 0.2*(180-87.5)) ) , 
-                           "Industrial Engineering (IE) 🏭"     : (0.25 * 98   + 0.125 * 107    + 0.125 * 115.5  + 0.125 * 112   + 0.125 * 116.5 + 0.25 * 98.5) , 
-                           "Mechanical Engineering (ME) ⚙️"     : (0.15 * 100  + 0.15 * 99     + 0.2 * 102.5    + 0.15 * 88     + 0.15 * 93.5   + 0.2 * 79.5) , 
-                           "Civil Engineering (CE) ⛑️"          : (0.19 * 78.5 + 0.19 * 87.5   + 0.19 * 90      + 0.19 * 74.5   + 0.19 * 76     + 0.05 * 7.5) , 
-                           "Metallurgical Engineering (MT) 🦾"  : (0.083 * 35  + 0.25 * 58.5   + 0.083 * 35     + 0.25 * 64     + 0.25 * 49.5   + 0.083 * 39) , 
-                           "Chemical Engineering (CHE) 🧪"      : (0.2 * 77.5  + 0.16 * 63     + 0.16 * 41.5    + 0.16 * 34     + 0.16 * 66.5   + 0.16 * 57.5) , 
-                           "Petroleum Engineering (PE) ⚗️"      : (0.16 * 94.5 + 0.16 * 90     + 0.16 * 87.5    + 0.16 * 74     + 0.2 * 97.5    + 0.16 * 74.5) , 
-                           "Environmental Engineering (ENV) 🌲" : (0.16 * 82   + 0.16 * 76.5   + 0.2 * 90       + 0.16 * 80.5   + 0.16 * 81.5   + 0.16 * 77.5) , 
-                           "Survey Engineering (SV) 🔎"         : (0.1 * 69    + 0.1 * 66.5    + 0.3 * 84.5     + 0.3 * 101     + 0.1  * 35.5   + 0.1  * 55.5) , 
-                           "Automotive Engineering (AE) 🚗"     : (0.15 * 76.5 + 0.2 * 88      + 0.2 * 87.5     + 0.15 * 71.5   + 0.15 * 76     + 0.15 * 70.5) } 
+weighted_minscore_dict = { "Computer Engineering (CP) 💻"       : (0 * 125  + 0.05 * 136      + 0.15 * 140     + 0.15 * 141.5  + 0.5 * 153  + 0 * 115   + 0.15 * 139.5) , 
+                           "Electrical Engineering (EE) ⚡"     :  (0.05 * 107  + 0.2 * 118.5  + 0.2 * 121     + 0.05 * 110     + 0.3 * (124 + (0.1*124))  + 0 * 87.5 +  0.2 * 120) , 
+                           "Industrial Engineering (IE) 🏭"     : (0.1 * 98    + 0.4 * 107     + 0.1 * 115.5    + 0.1 * 112     + 0.1 * 116.5   + 0.1 * 98.5   + 0.1 * 100) , 
+                           "Mechanical Engineering (ME) ⚙️"     : (0.25 * 100  + 0.05 * 99     + 0.25 * 102.5    + 0.05 * 88     + 0.15 * 93.5   + 0.05 * 79.5   + 0.2 * 90) , 
+                           "Civil Engineering (CE) ⛑️"          : (0.15 * 78.5 + 0.15 * 87.5   + 0.15 * 90      + 0.15 * 74.5   + 0.15 * 76     + 0 * 7.5      + 0.25 * 66) , 
+                           "Metallurgical Engineering (MT) 🦾"  : (0.033 * 35  + 0.1 * 58.5    + 0.033 * 35     + 0.2 * 64      + 0.3 * 49.5    + 0.033 * 39   + 0.3 * 45) , 
+                           "Chemical Engineering (CHE) 🧪"      : (0.3 * 77.5  + 0.1 * 63      + 0 * 41.5       + 0 * 34        + 0.15 * 66.5   + 0.15 * 57.5  + 0.3 * 73) , 
+                           "Petroleum Engineering (PE) ⚗️"      : (0.25 * 94.5 + 0.05 * 90     + 0.2 * 87.5     + 0.025 * 74    + 0.25 * 97.5    + 0.025 * 74.5 + 0.2 * 88.5) , 
+                           "Environmental Engineering (ENV) 🌲" : (0.15 * 82   + 0.15 * 76.5   + 0.05 * 90      + 0.15 * 80.5   + 0.15 * 81.5   + 0.15 * 77.5  + 0.2 * 77) , 
+                           "Survey Engineering (SV) 🔎"         : (0.0625 * 69 + 0.0625 * 66.5 + 0.2 * 84.5     + 0.3 * 101     + 0  * 35.5     + 0.075  * 55.5 + 0.3 * 103) , 
+                           "Automotive Engineering (AE) 🚗"     : (0.033 * 76.5 + 0.3 * 88     + 0.3 * 87.5     + 0.033 * 71.5  + 0.15 * 76     + 0.033 * 70.5  + 0.15 * 77.5) } 
                            
 # Step 6 : calculate possibility for each department (2 ways) 
 # Formula : possibility = 100 + ( (got - avg) / avg * 400 ) when ( (got - avg)/avg is difference) 
