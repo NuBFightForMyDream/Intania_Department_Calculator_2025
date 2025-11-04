@@ -29,7 +29,7 @@ So , It was developed to a brand new web application for 1st year General Engine
 ## 🔎 2 Methods of calculating **Minimum Score**
 Well , I created 2 methods how to calculate score for each department.
   - The first nethod is **Average Minimum Score** which caculate 7-year back minimum score then find average of them
-  - The second method is **Weighted Minimum Score** . Because of Civil Engineering in 2023 having a bug score (7.5 points , which was retired from university) . So , I weigted score differently on each year (0.16 for other year , and 0.20 for latest year) [for Civil it'll be 0.19 amnd 0.15 respectively]
+  - The second method is **Weighted Minimum Score** . Because of Civil Engineering in 2023 having a bug score (7.5 points , which was retired from university) . So , I weighted score differently on each year (0.16 for other year , and 0.20 for latest year) [for Civil it'll be 0.19 amnd 0.15 respectively]
   > Update 21/6/2025 : Weighted score will be depend on factors on each department (popularity , min score , external factors) , So percentage of chance will be changed too.
 
 ## 💡Easier ways to use this app via Google Sheets
