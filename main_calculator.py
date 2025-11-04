@@ -42,7 +42,7 @@ with st.form("Intania Department Calculator"):
         genchem = st.selectbox("🧪2302127 General Chemistry Grade" , list(grades.keys()) ) 
         labchem = st.selectbox("🧪2302163 General Chemistry Laboratory Grade" , list(grades.keys()) ) 
         labphy1 = st.selectbox("⚛️2304183 General Physics Laboratory I Grade" , list(grades.keys()) ) 
-        eng1 = st.selectbox("🧑‍🔬5500111 Experimental Engineering I Grade" , list(grades.keys()) ) 
+        eng1 = st.selectbox("🧑‍🔬5500111 Experimental English I Grade" , list(grades.keys()) ) 
 
         st.subheader("Semester 2 (COMP PROG , ENG MATERIALS , EXPLORE ENG WORLD)") 
         cal2 = st.selectbox("🔢2301108 Calculus II Grade" , list(grades.keys())) 
@@ -51,7 +51,7 @@ with st.form("Intania Department Calculator"):
         material = st.selectbox("🧱2109101 Engineering Materials Grade" , list(grades.keys())) 
         explore = st.selectbox("🌍2100111 Exploring the Engineering World Grade" , list(grades.keys())) 
         labphy2 = st.selectbox("⚛️2304184 General Physics Laboratory II Grade" , list(grades.keys())) 
-        eng2 = st.selectbox("🧑‍🔬5500112 Experimental Engineering II Grade" , list(grades.keys())) 
+        eng2 = st.selectbox("🧑‍🔬5500112 Experimental English II Grade" , list(grades.keys())) 
     
     else:  # COMP PROG First 
         st.subheader("Semester 1 (COMP PROG , ENG MATERIALS , EXPLORE ENG WORLD)") 
