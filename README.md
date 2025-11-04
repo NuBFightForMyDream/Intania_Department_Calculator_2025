@@ -6,7 +6,7 @@
 ## 🧮 Introduction
 The idea from this project is from myself that can't wait for Engineering Registeration Department that works so slow and I want to renovate the old web which doesn't cover latest data.
 So , It was developed to a brand new web application for 1st year General Engineering Student @ Chulalongkorn University to decide and calculate which department is the their best choice.
-> Update 17 Oct 2025 : Done for upgrading weighted percent for Intania 109
+> Update 4 Nov 25 : Done for upgrading info for Intania 109
 
 ## 💡Easier ways to use this app via Google Sheets
 - This is example of Google Sheets calculator screen
@@ -22,13 +22,13 @@ So , It was developed to a brand new web application for 1st year General Engine
 - Use this carefully , **Don't be obsessed** with this program too much. It can leads to your mental heakth unintentionally.
 - This program didn't consist of external factors (popularity , Seats for each department , Psychology game behind department choosing)
 - **Georesources & Nuclear** Engineering are **NOT** in this program (because of unpopular department , info not covered 6-year (some year didn't aren't applicable via choosing department) )
-- This program didn't contain **Safe Score** for each department (with this score , nisits can ensure that they have higher possibilities to get their dream department) [but in shhets have it]
+- This program didn't contain **Safe Score** for each department (with this score , nisits can ensure that they have higher possibilities to get their dream department) [but in sheets have it]
 - Opening google sheets in iPad can cause bug (shown as "Loading ...") . so , reopen it and it will shown your score
 - Formula of % Chance is **`100 + [(Your_score - Min_score) / Min_score * 400] (Change Difference to Percent then x4 and compare to 100 percent)`**
 
 ## 🔎 2 Methods of calculating **Minimum Score**
 Well , I created 2 methods how to calculate score for each department.
-  - The first nethod is **Average Minimum Score** which caculate 6-year back minimum score then find average of them
+  - The first nethod is **Average Minimum Score** which caculate 7-year back minimum score then find average of them
   - The second method is **Weighted Minimum Score** . Because of Civil Engineering in 2023 having a bug score (7.5 points , which was retired from university) . So , I weigted score differently on each year (0.16 for other year , and 0.20 for latest year) [for Civil it'll be 0.19 amnd 0.15 respectively]
   > Update 21/6/2025 : Weighted score will be depend on factors on each department (popularity , min score , external factors) , So percentage of chance will be changed too.
 
