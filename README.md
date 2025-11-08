@@ -1,5 +1,7 @@
 # Web App : Intania Department Calculator (2025 Version) (เราเลือกภาค หรือให้ภาคเลือกเรา)
 
+![Intania Department Calculator Template](https://github.com/NuBFightForMyDream/Intania_Department_Calculator_2025/blob/main/Intania%20Department%20Calculator%202025%20Template.png)
+
 ## Contributors
 - 6730084521 Chatrphol Ovanonchai (Main Contributors)
   
