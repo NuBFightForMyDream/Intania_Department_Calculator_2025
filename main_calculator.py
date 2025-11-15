@@ -94,7 +94,7 @@ weights = { "Computer Engineering (CP) 💻"        : [9 , 3 , 3 , 3 , 3 , 3 , 3
              "Survey Engineering (SV) 🔎"         : [6 , 3 , 3 , 3 , 6 , 6 , 3 , 3 , 3 , 1 , 1 , 1 , 3 , 3] , 
              "Automotive Engineering (AE) 🚗"     : [3 , 3 , 3 , 3 , 3 , 3 , 3 , 3 , 3 , 1 , 1 , 1 , 3 , 3] } 
 
-# Step 4 : calculate score for each department 
+# Step 4 : calculate score for each department
 yourscore_dict = {} # dict ( for key (dept_name) :value (score) ) 
 # outer loop : extract key (each_dept) and value (weight_list) from weights dict 
 
