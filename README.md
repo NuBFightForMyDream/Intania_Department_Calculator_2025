@@ -13,7 +13,7 @@ So , It was developed to a brand new web application for 1st year General Engine
 ## 💡Easier ways to use this app via Google Sheets
 - This is example of Google Sheets calculator screen
 ![Example of Google Sheets calculator](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Intania%20Department%20Calculator%20Example%20Sheets.jpg)
-[You can try this program via this link , Do not use it for commercials](https://docs.google.com/spreadsheets/d/1vxl09wGhZNzD7PMFiAnqD_VPttb0QYFxf6-nfpaY2iY/edit?gid=922121716#gid=922121716)
+[Try Easier Version (Google Sheets) , Do not use it for commercials](https://docs.google.com/spreadsheets/d/1vxl09wGhZNzD7PMFiAnqD_VPttb0QYFxf6-nfpaY2iY/edit?gid=922121716#gid=922121716)
 
 ## ✖️2️⃣ Multiplier charts & 10-year back history of department choosing
 ![Multiplier Chart](https://github.com/NuBFightForCP51Again/Intania_Department_Calculator/blob/main/Multiplier%20Intania%20Department.jpg) Big thanks for ESC Chula for this picture
@@ -30,7 +30,7 @@ So , It was developed to a brand new web application for 1st year General Engine
 
 ## 🔎 2 Methods of calculating **Minimum Score**
 Well , I created 2 methods how to calculate score for each department.
-  - The first nethod is **Average Minimum Score** which caculate 7-year back minimum score then find average of them
+  - The first method is **Average Minimum Score** which caculate 7-year back minimum score then find average of them
   - The second method is **Weighted Minimum Score** . Because of Civil Engineering in 2023 having a bug score (7.5 points , which was retired from university) . So , I weighted score differently on each year (0.16 for other year , and 0.20 for latest year) [for Civil it'll be 0.19 amnd 0.15 respectively]
   > Update 21/6/2025 : Weighted score will be depend on factors on each department (popularity , min score , external factors) , So percentage of chance will be changed too.
 
