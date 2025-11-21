@@ -18,7 +18,7 @@ st.markdown("Well , Here is a multiplier for each department [Click Here](https:
 # Step 2 : input basic info 
 
 # 2.1 create selectbox with list of departments (Lists) 
-dream_department = st.selectbox( "อยากเป็น #2 อะไรกันน", 
+dream_department = st.selectbox( "Choose your Dream Department 🌟 ", 
                                 [ "Computer Engineering (CP) 💻" , "Electrical Engineering (EE) ⚡" , "Industrial Engineering (IE) 🏭" , 
                                  "Mechanical Engineering (ME) ⚙️" , "Civil Engineering (CE) ⛑️" , "Metallurgical Engineering (MT) 🦾" , 
                                  "Chemical Engineering (CHE) 🧪" , "Petroleum Engineering (PE) ⚗️" , "Environmental Engineering (ENV) 🌲" ,
