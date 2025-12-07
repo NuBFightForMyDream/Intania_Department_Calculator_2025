@@ -4,7 +4,7 @@ import pandas as pd # for DataFrame
 import numpy as np # for calculting mathematics function 
 
 # Step 1 : set page config (layout message) 
-st.set_page_config(page_title="Intania Department Calculator 2025", layout="wide") 
+st.set_page_config(page_title="Intania Department Calculator 2025", layout="wide" , page_icon = "⚙️") 
 st.title("Intania Department Calculator 🧮") 
 
 # markdown for welcome message 
